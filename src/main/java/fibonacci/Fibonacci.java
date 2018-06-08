@@ -1,4 +1,4 @@
-package ru.datastructures.fibonacci;
+package fibonacci;
 
 import java.util.Iterator;
 

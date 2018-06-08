@@ -1,21 +1,19 @@
-package ru.datastructures.fibonacci;
+package fibonacci;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-
-import javax.swing.text.html.HTMLDocument;
 
 import java.util.Iterator;
 
 import static org.junit.Assert.*;
 
-public class FibonacciWithMatrixTest {
+public class FibonacciWithoutRecursionTest {
 
     private static Fibonacci fibonacci;
 
     @BeforeClass
     public static void signUp() {
-        fibonacci = new FibonacciWithMatrix(5);
+        fibonacci = new FibonacciWithoutRecursion(5);
     }
 
     @Test
